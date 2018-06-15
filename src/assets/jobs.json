@@ -1,3 +1,44 @@
 {
+  "items": [
+    {
+      "name": "test 0",
+      "provider": "juba",
+      "staff": [
+        {
+          "image": null,
+          "name": "Jon Dir"
+        }
+      ],
+      "modified_at": "2018-05-23"
+    },
+
+    {
+      "name": "test 1",
+      "provider": "Bubbbub",
+      "staff": [
+        {
+          "image": null,
+          "name": "Jon Dir"
+        }
+      ],
+      "modified_at": "2018-05-23"
+    },
+
+    {
+      "name": "test 2",
+      "provider": "Goda",
+      "staff": [
+        {
+          "image": null,
+          "name": "Julian Etty"
+        },
+        {
+          "image": null,
+          "name": "Anjey Sapkowski"
+        }
+      ],
+      "modified_at": "2018-05-23"
+    }
+  ]
 
 }

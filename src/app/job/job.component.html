@@ -1,23 +1,41 @@
 <div class="card" *ngIf="job">
-  <div class="card-body">
-    <div class="row">
+  <div class="card-color-id card-color--red"></div>
+  <div class="card-body ">
+    <div class="row align-items-center">
       <div class="col-3">
-        {{job.name}}
+        <a href="#">
+            {{job.name}}
+        </a>
       </div>
       <div class="col-3">
-        {{job.provider}}
+        <a href="#">
+          {{job.provider}}
+        </a>
       </div>
 
       <div class="col-2">
 
       </div>
-      <div class="col-sm">
-        {{job.modified_at.toLocaleString('en-GB')}}
-      </div>
-      <div class="col-sm text-right">
-        <button class="btn btn-outline-primary">Complete</button>
+      <div class="col-4 ">
+        <div class="row justify-content-between">
+          <div class="col-3 d-flex ">
+            <span>
+              {{job.modified_at.toLocaleString('en-GB')}}
+            </span>
+          </div>
+          <div class="col-6 d-flex justify-content-between">
+              <button class="btn btn-outline-primary btn-custom">Complete</button>
+              <button class="btn btn-outline-primary btn-custom">Complete</button>
+        </div>
+          <div class="col-3 d-flex justify-content-center ">
+            <div class="btn btn-dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
-

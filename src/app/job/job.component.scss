@@ -1,0 +1,56 @@
+.card{
+  border-bottom: 5px solid #eaeaea;
+  position: relative;
+}
+.card-color-id{
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 10px;
+  background-color: red;
+}
+.card-color-id{
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 10px;
+  background-color: #c6c5ca;
+}
+
+.card-color--red{
+  background-color: red;
+}
+
+.card-color--green{
+  background-color: green;
+}
+
+.card-color--orange{
+  background-color: #f6b559 ;
+}
+
+.dot{
+  display: flex;
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  background-color: #50727b;
+  margin-bottom: 8px
+}
+
+.dot:last-child{
+  margin-bottom: 0;
+}
+
+.reset-padding{
+  padding: 0!important;
+  margin: 0;
+}
+.btn-custom{
+  border: 1px solid #a9bbcf;
+  color: #97aab1;
+}

@@ -1,11 +1,48 @@
-.content {
-  margin-top: 56px;
-}
+// .content {
+//   margin-top: 56px;
+// }
 
 .list-title {
+  padding: 20px 0;
   /** @todo: need styling */
 }
 
 .list-body {
   /** @todo: need styling */
+}
+
+.remove-padding {
+  padding: 0;
+}
+
+.pag-size {
+  color: #333;
+  margin-right: 3px;
+  font-weight: 600;
+}
+
+.pag-total {
+  color: #b5b6ba;
+}
+
+.pag-total::before {
+  content: '/';
+  margin-right: 3px;
+}
+
+.pag-total,
+.pag-size:hover {
+  text-decoration: none;
+}
+
+.pagination-wrap {
+  padding: 5px 0;
+}
+
+.pag-arrow {
+  margin-left: 15px;
+}
+
+span {
+  cursor: pointer;
 }

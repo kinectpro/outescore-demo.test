@@ -1,20 +1,45 @@
 <div class="card" *ngIf="job">
-  <div class="card-color-id card-color--red"></div>
+  <div class="card-color-id status-color--red"></div>
   <div class="card-body ">
     <div class="row align-items-center">
       <div class="col-3">
-        <a href="#">
-            {{job.name}}
-        </a>
+        <div class="link-row">
+          <div class="job-status-color"></div>
+          <a href="#">
+              {{job.name}}
+          </a>
+        </div>
       </div>
       <div class="col-3">
-        <a href="#">
-          {{job.provider}}
-        </a>
+        <div class="link-row">
+          <div class="job-status-color"></div>
+          <a href="#">
+            {{job.provider}}
+          </a>
+        </div>
       </div>
 
       <div class="col-2">
-
+          <div class="images-row">
+            <div class="staff-person">
+              <div class="staff-image staff-image--first ">
+                <img src="https://research.fb.com/wp-content/uploads/2016/11/post00006_image0002.jpg" alt="" class="stf-img">
+              </div>
+              <a href="/" class="staff-name">John Doe </a>
+            </div>
+            <div class="staff-person">
+              <div class="staff-image  staff-image--second ">
+                  <img src="https://www.beasleylaw.com/wp-content/uploads/2016/01/Picture-of-person.png" alt="" class="stf-img">
+              </div>
+              <a href="/" class="staff-name">John Doe </a>
+            </div>
+            <div class="staff-person">
+              <div class="staff-image staff-image--third ">
+                <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Flaurashin%2Ffiles%2F2018%2F02%2Flarsen.jpg" alt="" class="stf-img">
+              </div>
+              <a href="/" class="staff-name">John Doe </a>
+            </div>
+        </div>
       </div>
       <div class="col-4 ">
         <div class="row justify-content-between">

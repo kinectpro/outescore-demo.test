@@ -1,26 +1,58 @@
 <app-menu></app-menu>
-
 <div class="container-fluid content">
-  <div class="row list-title">
-    <div class="col-3">
-      Job name
-    </div>
-
-    <div class="col-3">
-      Provider name
-    </div>
-
-    <div class="col-2">
-      Provider staff
-    </div>
-
-    <div class="col-4">
-      <span>Last modified</span>
-    </div>
-
-  </div>
-
-  <div class="list-body">
-    <app-job *ngFor="let job of jobs" [job]="job"></app-job>
-  </div>
+   <div class="row list-title">
+      <div class="col-3 d-flex align-items-center">
+         <span>Job name</span>
+         <i class="material-icons">
+         arrow_drop_down
+         </i><i class="material-icons">
+         search
+         </i>
+      </div>
+      <div class="col-3 d-flex align-items-center">
+         <span>Provider name</span>
+         <i class="material-icons">
+         arrow_drop_down
+         </i><i class="material-icons">
+         search
+         </i>
+      </div>
+      <div class="col-2 d-flex align-items-center">
+         <span>Provider staff</span>
+         <i class="material-icons">
+         arrow_drop_down
+         </i><i class="material-icons">
+         search
+         </i>
+      </div>
+      <div class="col-4 d-flex align-items-center">
+         <span>Last modified</span>
+         <i class="material-icons">
+         arrow_drop_down
+         </i>
+      </div>
+   </div>
+   <div class="list-body">
+      <app-job *ngFor="let job of jobs" [job]="job"></app-job>
+   </div>
+   <div class="row pagination">
+      <div class="col">
+         <div class="row">
+            <div class="col-2">
+               <div class="pagination-wrap d-flex">
+                  <a href="/" class="pag-size">21-40</a>
+                  <a href="/" class="pag-total">295</a>
+                  <div class="pag-arrow">
+                     <a href="/" class=""><i class="material-icons">
+                     chevron_left
+                     </i></a>
+                     <a href="/" class=""><i class="material-icons">
+                     chevron_right
+                     </i></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
 </div>

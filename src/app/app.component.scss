@@ -11,37 +11,38 @@
   /** @todo: need styling */
 }
 
-.remove-padding{
+.remove-padding {
   padding: 0;
 }
 
-.pag-size{
+.pag-size {
   color: #333;
   margin-right: 3px;
   font-weight: 600;
 }
 
-.pag-total{
+.pag-total {
   color: #b5b6ba;
 }
 
-.pag-total::before{
+.pag-total::before {
   content: '/';
   margin-right: 3px;
 }
 
 .pag-total,
-.pag-size:hover{
+.pag-size:hover {
   text-decoration: none;
 }
 
-.pagination-wrap{
+.pagination-wrap {
   padding: 5px 0;
 }
-.pag-arrow{
+
+.pag-arrow {
   margin-left: 15px;
 }
 
-span{
+span {
   cursor: pointer;
 }

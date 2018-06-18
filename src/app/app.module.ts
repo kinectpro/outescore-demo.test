@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { JobComponent } from './job/job.component';
 import { MenuComponent } from './menu/menu.component';
+import {MatIconModule} from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { MenuComponent } from './menu/menu.component';
     MenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent],
